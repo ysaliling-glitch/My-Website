@@ -1,0 +1,93 @@
+<!-- Assignment 4 -->
+ <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payroll System</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="redBg">
+    <header>
+        <h1>Saliling Website</h1>
+        <br>
+        <hr>
+
+       <div class="tabs">
+        <a href="index.html">Home</a>
+        <a href="conversion.html">Conversion</a>
+        <a href="tax.html">Tax</a>
+        <a href="numbers.html">Numbers</a>
+        <a href="payroll.html">Payroll</a>
+    </div>
+    </header>
+
+    
+        <div id="payroll" class="tab-content">
+
+
+        <h2>Payroll System</h2>
+        <div id="container1" class="container1">
+            <br>
+        <input type="text"
+               id="empName"
+               placeholder="Employee Name">
+
+        <input type="number"
+               id="daysWorked"
+               placeholder="Days Worked">
+
+        <input type="number"
+               id="dailyRate"
+               placeholder="Daily Rate">
+
+        <input type="number"
+               id="deductionAmount"
+               placeholder="Deduction Amount">
+
+        <button onclick="addEmployee()">
+            Add Employee
+        </button>
+<br>
+ 
+
+    </div>
+    <br>
+    <div id="container2" class="container2">
+        <h2>Payroll Records</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No. </th>
+                    <th> Employee Name </th>
+                    <th> Days Worked </th>
+                    <th> Daily Rate </th>
+                    <th> Gross Pay </th>
+                    <th> Deduction Amount </th>
+                    <th> Net Pay </th>
+                </tr>
+            </thead>
+
+            <tbody id="payrollBody">
+
+            </tbody>
+        </table>
+        <br>
+               <hr>
+        <input type="number"
+               id="deleteNumber"
+               placeholder="Line Number to Delete">
+
+        <button onclick="deleteEmployee()">
+            Delete Employee
+        </button>
+    </div>
+
+    </div>
+<br>
+        <script src="script.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,145 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:#43000d;
+    color:rgb(255, 193, 193);
+    text-align:center;
+    padding:20px;
+}
+
+.tabs{
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.redBg{
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(redBG.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  min-height: 100px;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+a{
+  color: #d6cdc0;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+h2{
+  text-align: center;
+  padding: 20px;
+  color: #ffe4ea;
+}
+
+.number{
+  text-align: center;
+  padding: 20px;
+  color: #f9194a;
+}
+
+p{
+    text-align: center;
+    padding: 20px;
+    color: #ffe4ea;
+}
+
+button{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #150005;
+    color: #ffe4ea;
+    border: 1px solid #9e3138;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.convValue{
+    text-align: center;
+    padding: 20px;
+    color: #ff91a9;
+}
+
+.container1{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(container1.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* horizontal center */
+    justify-content: center; /* vertical center */          /* full screen height */
+    border-radius: 30px;
+}
+
+input, select {
+    padding: 8px;
+    border: 2px solid #9e3138;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.container2{
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.726),rgba(0,0,0,0.5),rgba(0, 0, 0, 0.5)),url(conatainer2.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* horizontal center */
+    justify-content: center; /* vertical center */          /* full screen height */
+    border-radius: 25px;
+}
+tr{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #ff93ab;
+}
+.container2 hr {
+    width: 100%;
+    height: 3px;
+    border: none;
+    background-color: white;
+    margin: 20px 0;
+    display: block;
+    overflow-x: auto;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: center;
+}
